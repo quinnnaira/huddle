@@ -1,0 +1,271 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* HEADER STYLING */
+#header {
+  width: 100%;
+  padding-top: 20px;
+  background: #edfbfe;
+  background-image: url(../huddle/huddle_images/bg-hero-desktop.svg);
+}
+.divheader {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: none;
+}
+.divheader button {
+  border: none;
+  border-radius: 50px;
+  padding: 15px 10px 15px 10px;
+  width: 200px;
+  background: whitesmoke;
+  font-weight: 40px;
+  cursor: pointer;
+}
+
+/*  hEADER SECTION 1 STYLING */
+#section1 {
+  display: flex;
+  overflow: none;
+}
+.section1-left {
+  padding: 20px 20px 20px 50px;
+}
+
+.section1-right {
+  padding: 20px 50px 20px 20px;
+}
+.section1-right img {
+  width: 600px;
+  height: 600px;
+}
+.btn-1:hover{
+  background: #5151e9;
+  padding: 20px 15px ;
+  font-size: 20px;
+  
+}
+body .btn-2 {
+  color: white;
+  background: #e951bf;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 10px 15px 10px;
+  width: 300px;
+  cursor: pointer;
+}
+/* SECTION 2 STYLING */
+#section2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: none;
+}
+
+.section2-right img {
+  width: 600px;
+  height: 600px;
+}
+.section2-right img {
+  width: 600px;
+  height: 600px;
+}
+/* SECTION 3 STYLING */
+#section3 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: none;
+}
+.section3-left img {
+  width: 600px;
+  height: 600px;
+}
+
+.section3-right {
+  margin-right: 50px;
+}
+/* SECTION 4 STYLING */
+#section4 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: none;
+}
+.section4-right img {
+  width: 600px;
+  height: 600px;
+}
+/* .section4-left {
+}
+.section4-right {
+} */
+/* SECTION 5 STYLING */
+.section5 {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  position: relative;
+  bottom: -50px;
+  background-color: white;
+}
+.btn-5{
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  background: #e951bf;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom:20px;
+  width: 60%;
+
+}
+.btn-5:hover{
+  background: #5151e9;
+  padding: 20px 15px ;
+  font-size: 20px;
+  
+}
+
+/* FOOTER STYLING */
+footer {
+  background: #0b252e;
+}
+#footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  overflow: none;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 100px;
+}
+#footer img {
+  color: purple;
+  filter: contrast(0.5);
+}
+.footerleft {
+  margin-right: 10px;
+}
+.footercenterp {
+  display: flex;
+  font-display: row;
+}
+.footercenter p {
+  text-align: left;
+}
+.footercenter-p1 {
+  margin-right: 30px;
+}
+/* .footercenter-p1,
+.footercenter-p2,
+.footercenter-p3 {
+  display: flex;
+  justify-content: space-between;
+}
+.footercenter-p1 p,
+.footercenter-p2 p,
+.footercenter-p3 p {
+  text-align: start;
+}
+.footercenter-p1 .p2,
+.footercenter-p2 .p2,
+.footercenter-p3 .p2 {
+  margin-left: 20px; */
+/* text-align: left;
+} */
+.footerright {
+  text-align: end;
+  justify-content: space-between;
+}
+.footerright i {
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 18px;
+  padding: 8px;
+}
+#footerbottom {
+  text-align: end;
+}
+
+@media (max-width: 425px) {
+  /* HEADER STYLING */
+  #header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  #header img {
+    width: 80%;
+  }
+  .divheader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+  }
+  .divheader button {
+    border: none;
+    border-radius: 50px;
+    padding: 15px 10px 15px 10px;
+    width: 100px;
+    background: whitesmoke;
+    font-weight: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  #section1 {
+    display: block;
+    overflow: none;
+  }
+  .section1-left {
+    padding: 10px 10px 10px 10px;
+  }
+  .section1-left h1 {
+    text-align: center;
+    width: 300px;
+  }
+  .section1-left p {
+    text-align: left;
+    width: 340px;
+  }
+  .section1-right img {
+    width: 300px;
+    height: 300px;
+  }
+  body .btn-2 {
+    color: white;
+    background: #e951bf;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 10px 15px 10px;
+    width: 300px;
+    cursor: pointer;
+  }
+
+  #section1 {
+    display: flex;
+    font-display: column;
+  }
+  .section1-right img {
+    width: 300px;
+    height: 300px;
+  }
+  /* SECTION 2 STYLING */
+}
